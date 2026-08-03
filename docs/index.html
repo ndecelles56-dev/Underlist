@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Underlist — Download</title>
+<style>
+  :root { --bg:#111113; --card:#1c1c1e; --card2:#242427; --line:#2e2e31;
+    --text:#f2f2f4; --sub:#9a9aa0; --green:#34c759; --blue:#3d7bfd; }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--text);
+    font:15px/1.55 -apple-system, system-ui, "Segoe UI", sans-serif;
+    display:flex; justify-content:center; padding:34px 18px; }
+  .wrap { max-width:520px; width:100%; }
+  .brand { display:flex; align-items:center; gap:12px; margin-bottom:6px; }
+  .brand svg { flex:0 0 auto; }
+  .brand h1 { font-size:26px; letter-spacing:-.02em; }
+  .tag { color:var(--sub); margin-bottom:22px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px;
+    padding:18px; margin-bottom:14px; }
+  .btn { display:block; text-align:center; text-decoration:none; font-weight:640;
+    padding:13px 16px; border-radius:12px; margin-top:10px; }
+  .btn.primary { background:var(--green); color:#08130a; }
+  .btn.ghost { background:var(--card2); color:var(--text); border:1px solid var(--line); }
+  .steps { color:var(--sub); font-size:13.5px; }
+  .steps b { color:var(--text); }
+  .steps div { padding:7px 0; border-bottom:1px solid var(--line); }
+  .steps div:last-child { border-bottom:0; }
+  .note { background:var(--card2); border:1px solid var(--line); border-radius:12px;
+    padding:11px 13px; font-size:13px; color:var(--sub); margin-top:12px; }
+  .note b { color:var(--text); }
+  .lic { font-size:12.5px; color:var(--sub); margin-top:16px; text-align:center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">
+    <img src="data:image/png;base64,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" width="43" height="34" alt="" style="display:block">
+    <h1>Underlist</h1>
+  </div>
+  <div class="tag">Finds underpriced listings for the stuff you flip.</div>
+
+  <div class="card">
+    <b>Get the extension</b>
+    <div class="steps" style="margin-top:6px">The current build and install guide are pinned in the Discord — grab the zip from <b>#releases</b>.</div>
+    <a class="btn primary" href="https://discord.gg/EQVwkVxH6E" target="_blank" rel="noopener">Open the Discord → #releases</a>
+    <a class="btn ghost" href="https://github.com/ndecelles56-dev/Underlist" target="_blank" rel="noopener">Project on GitHub</a>
+  </div>
+
+  <div class="card">
+    <b>Install (2 minutes)</b>
+    <div class="steps" style="margin-top:6px">
+      <div><b>1.</b> Unzip. Put the <b>underlist</b> folder somewhere permanent — not Downloads.</div>
+      <div><b>2.</b> Go to <b>chrome://extensions</b>, turn on <b>Developer mode</b> (top right).</div>
+      <div><b>3.</b> <b>Load unpacked</b> → pick the underlist folder. Setup opens — pin the icon.</div>
+    </div>
+    <div class="note"><b>Sign in to Facebook first.</b> Underlist reads the Marketplace pages you open — logged out, Marketplace shows nothing and there's nothing to score.</div>
+  </div>
+
+  <div class="lic">Your license key: open your purchase → <b>Manage membership</b> → Underlist → <b>Software</b>. Paste it in Settings → AI → License key.</div>
+</div>
+</body>
+</html>
